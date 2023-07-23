@@ -6,6 +6,7 @@ import HelloWorld from './components/helloworld'
 import IncrementCounter from './components/counter'
 import Toggle from './components/toggle'
 import Timer from './components/timer';
+import TodoList from './components/TodoList';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <IncrementCounter/><br/>
     <Toggle/>
     <Timer/>
+    <TodoList/>
   </React.StrictMode>
 );
 
