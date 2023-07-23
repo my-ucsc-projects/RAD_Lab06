@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import HelloWorld from './components/helloworld'
 import IncrementCounter from './components/counter'
+import Toggle from './components/toggle'
+import Timer from './components/timer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +13,9 @@ root.render(
   <React.StrictMode>
     <App />
     <HelloWorld/>
-    <IncrementCounter/>
+    <IncrementCounter/><br/>
+    <Toggle/>
+    <Timer/>
   </React.StrictMode>
 );
 
