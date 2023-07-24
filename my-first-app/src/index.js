@@ -9,7 +9,9 @@ import Timer from './components/timer';
 import Todo from './components/TodoList';
 import Card from './components/card';
 import CardList from './components/cardList';
+import Form from './components/form';
 import reportWebVitals from './reportWebVitals';
+import Form from './components/form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +23,7 @@ root.render(
     <Timer/>
     <Todo/>
     <CardList/>
+    <Form/>
     {/* <Card title={'Card 1'} content={ 'This is the content of Card 1'}/> */}
   </React.StrictMode>
 );
