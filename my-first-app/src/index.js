@@ -7,6 +7,8 @@ import IncrementCounter from './components/counter'
 import Toggle from './components/toggle'
 import Timer from './components/timer';
 import Todo from './components/TodoList';
+import Card from './components/card';
+import CardList from './components/cardList';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +20,8 @@ root.render(
     <Toggle/>
     <Timer/>
     <Todo/>
+    <CardList/>
+    {/* <Card title={'Card 1'} content={ 'This is the content of Card 1'}/> */}
   </React.StrictMode>
 );
 
