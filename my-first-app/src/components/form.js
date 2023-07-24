@@ -9,7 +9,7 @@ function Form() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form >
             <label>Enter string:
                 <input
                     type="text"
@@ -17,7 +17,7 @@ function Form() {
                     onChange={(e) => setStr(e.target.value)}
                 />
             </label>
-            <input type="submit" />
+            <input type="submit" onClick={handleSubmit}/>
         </form>
     )
 }
